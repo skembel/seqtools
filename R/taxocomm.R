@@ -7,7 +7,6 @@
 #' @export
 taxocomm <- function(comm, taxo, rank) {
   comm.taxo <- aggregate(t(comm), by=list(taxonrank=taxo[,rank]), sum)
-  comm.taxo <- comm.taxo[-1,]
   rownames(comm.taxo) <- comm.taxo[,1]
   return(t(comm.taxo[,-1]))
 }
