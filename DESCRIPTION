@@ -1,7 +1,7 @@
 Package: seqtools
 Type: Package
 Title: Kembel lab R tools for working with sequence data
-Version: 0.1.0
+Version: 0.2.0
 Author: Steven Kembel <steve.kembel@gmail.com>
 Maintainer: Steven Kembel <steve.kembel@gmail.com>
 Description: Tools for working with sequence data in R
@@ -9,4 +9,4 @@ Description: Tools for working with sequence data in R
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1
+RoxygenNote: 7.1.1
